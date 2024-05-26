@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Link from '../Link/Link';
+import { FaAlignLeft , FaRegWindowClose } from "react-icons/fa";
 
 const Navbar = () => {
-
+const [open,setOpen] =useState(false);
     const routes = [
         {
             id: 'nav-home',
@@ -38,7 +39,14 @@ const Navbar = () => {
 
     return (
         <nav>
-            <ul className='md:flex  justify-center'>
+            <div onClick={()=>{setOpen(!open)}} className='md:hidden text-2xl ms-4 mt-4 '>
+                {
+                    open === true ? <FaRegWindowClose></FaRegWindowClose> :  <FaAlignLeft className=' '></FaAlignLeft>
+                }
+               
+            </div>
+            
+            <ul className='md:flex ms-4'>
             {
                 routes.map(route => <Link key={route.id} route={route}></Link>
                 )
