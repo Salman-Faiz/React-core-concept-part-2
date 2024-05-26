@@ -38,7 +38,7 @@ const [open,setOpen] =useState(false);
     ];
 
     return (
-        <nav>
+        <nav className='p-5  bg-purple-200'>
             <div onClick={()=>{setOpen(!open)}} className='md:hidden text-2xl ms-4 mt-4 '>
                 {
                     open === true ? <FaRegWindowClose></FaRegWindowClose> :  <FaAlignLeft className=' '></FaAlignLeft>
@@ -46,7 +46,9 @@ const [open,setOpen] =useState(false);
                
             </div>
             
-            <ul className='md:flex ms-4'>
+            <ul className={`md:flex ms-4 absolute  bg-purple-200 rounded-lg p-4 duration-1000
+            ${open ? 'top-24 md:static' : '-top-60'}
+            `}>
             {
                 routes.map(route => <Link key={route.id} route={route}></Link>
                 )
