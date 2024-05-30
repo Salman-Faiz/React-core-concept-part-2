@@ -13,12 +13,12 @@ useEffect(()=>{
 
     
     return (
-        <div >
+        <div className="">
 
             <h2 className="text-5xl font-bold my-6">Best price in chattagrom</h2>
-           <div className="grid grid-cols-3 gap-5">
+           <div className="md:grid grid-cols-3 gap-x-5">
            {
-                gymPrices.map(gymPrice => <PriceOption gymPrice={gymPrice}></PriceOption>)
+                gymPrices.map((gymPrice,idx) => <PriceOption gymPrice={gymPrice} key={idx}></PriceOption>)
             }
            </div>
 

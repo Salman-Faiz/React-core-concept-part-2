@@ -38,7 +38,7 @@ const [open,setOpen] =useState(false);
     ];
 
     return (
-        <nav className='p-5  bg-purple-200'>
+        <nav className='p-5  bg-purple-200 rounded-xl'>
             <div onClick={()=>{setOpen(!open)}} className='md:hidden text-2xl ms-4 mt-4 '>
                 {
                     open === true ? <FaRegWindowClose></FaRegWindowClose> :  <FaAlignLeft className=' '></FaAlignLeft>
