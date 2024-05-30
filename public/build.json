@@ -1,0 +1,106 @@
+[
+    {
+        "id": 101,
+        "membership": "Basic Membership",
+        "price": "$30/month",
+        "features": [
+            "Access to gym equipment",
+            "Locker rooms",
+            "Free initial fitness consultation",
+            "24/7 access"
+        ]
+    },
+    {
+        "id": 102,
+        "membership": "Standard Membership",
+        "price": "$50/month",
+        "features": [
+            "Access to gym equipment",
+            "Locker rooms",
+            "Group fitness classes",
+            "Free initial fitness consultation",
+            "24/7 access",
+            "Access to member events"
+        ]
+    },
+    {
+        "id": 103,
+        "membership": "Premium Membership",
+        "price": "$70/month",
+        "features": [
+            "All Standard features",
+            "Access to sauna",
+            "Steam room",
+            "Pool",
+            "Towel service",
+            "Priority class booking",
+            "Monthly guest passes"
+        ]
+    },
+    {
+        "id": 104,
+        "membership": "Personal Training",
+        "price": "$50/session",
+        "features": [
+            "One-on-one training session with a certified personal trainer",
+            "Personalized workout plan",
+            "Nutritional advice",
+            "Progress tracking"
+        ]
+    },
+    {
+        "id": 105,
+        "membership": "Group Training",
+        "price": "$25/session",
+        "features": [
+            "Small group training sessions",
+            "Personalized workout plans",
+            "Motivational environment",
+            "Access to specialized equipment"
+        ]
+    },
+    {
+        "id": 106,
+        "membership": "Yoga Class",
+        "price": "$15/class",
+        "features": [
+            "1-hour yoga class with a certified instructor",
+            "Relaxation and stress relief",
+            "Flexibility improvement",
+            "Beginner to advanced levels"
+        ]
+    },
+    {
+        "id": 107,
+        "membership": "Pilates Class",
+        "price": "$20/class",
+        "features": [
+            "1-hour Pilates class with a certified instructor",
+            "Core strength enhancement",
+            "Posture improvement",
+            "Low-impact exercises"
+        ]
+    },
+    {
+        "id": 108,
+        "membership": "Spinning Class",
+        "price": "$18/class",
+        "features": [
+            "1-hour high-intensity cycling class",
+            "Cardiovascular workout",
+            "High-energy music",
+            "Performance tracking"
+        ]
+    },
+    {
+        "id": 109,
+        "membership": "Zumba Class",
+        "price": "$15/class",
+        "features": [
+            "1-hour dance fitness class",
+            "Fun and engaging routines",
+            "Calorie burning",
+            "Suitable for all fitness levels"
+        ]
+    }
+]
