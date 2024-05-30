@@ -11,10 +11,7 @@ function App() {
     <>
       {/* <DaisyNav></DaisyNav> */}
       <Navbar></Navbar>
-      <p className="text-6xl">
-        Core concept react part 2
-
-      </p>
+     
     
     </>
   )

@@ -46,8 +46,8 @@ const [open,setOpen] =useState(false);
                
             </div>
             
-            <ul className={`md:flex ms-4 absolute  bg-purple-200 rounded-lg p-4 duration-1000
-            ${open ? 'top-24 md:static' : '-top-60'}
+            <ul className={`md:flex ms-4 absolute md:static bg-purple-200 rounded-lg p-4 duration-500
+            ${open ? 'top-24 ' : '-top-60'}
             `}>
             {
                 routes.map(route => <Link key={route.id} route={route}></Link>
